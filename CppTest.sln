@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppTest", "CppTest\CppTest.vcxproj", "{D6C61309-98BC-4FB5-B6F3-A10BA4FD04D7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{32B93DD2-C045-4EA7-B926-1A355381B722} = {32B93DD2-C045-4EA7-B926-1A355381B722}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppTestDynamicLibrary", "CppTestDynamicLibrary\CppTestDynamicLibrary.vcxproj", "{32B93DD2-C045-4EA7-B926-1A355381B722}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6C61309-98BC-4FB5-B6F3-A10BA4FD04D7}.Debug|x64.ActiveCfg = Debug|x64
+		{D6C61309-98BC-4FB5-B6F3-A10BA4FD04D7}.Debug|x64.Build.0 = Debug|x64
+		{D6C61309-98BC-4FB5-B6F3-A10BA4FD04D7}.Release|x64.ActiveCfg = Release|x64
+		{D6C61309-98BC-4FB5-B6F3-A10BA4FD04D7}.Release|x64.Build.0 = Release|x64
+		{32B93DD2-C045-4EA7-B926-1A355381B722}.Debug|x64.ActiveCfg = Debug|x64
+		{32B93DD2-C045-4EA7-B926-1A355381B722}.Debug|x64.Build.0 = Debug|x64
+		{32B93DD2-C045-4EA7-B926-1A355381B722}.Release|x64.ActiveCfg = Release|x64
+		{32B93DD2-C045-4EA7-B926-1A355381B722}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5500043F-860A-49A6-A772-3A349A154FE7}
+	EndGlobalSection
+EndGlobal
